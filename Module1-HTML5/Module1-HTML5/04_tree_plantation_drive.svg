@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#e8f5e9"/>
+  <rect x="0" y="330" width="800" height="170" fill="#6d4c22"/>
+  <rect x="0" y="318" width="800" height="20" fill="#8d6330"/>
+  <circle cx="100" cy="90" r="55" fill="#fff9c4" opacity=".6"/>
+  <circle cx="100" cy="90" r="36" fill="#fdd835" opacity=".75"/>
+  <line x1="100" y1="25" x2="100" y2="10" stroke="#fdd835" stroke-width="3" opacity=".6"/>
+  <line x1="100" y1="155" x2="100" y2="170" stroke="#fdd835" stroke-width="3" opacity=".6"/>
+  <line x1="35" y1="90" x2="20" y2="90" stroke="#fdd835" stroke-width="3" opacity=".6"/>
+  <line x1="165" y1="90" x2="180" y2="90" stroke="#fdd835" stroke-width="3" opacity=".6"/>
+  <rect x="380" y="210" width="40" height="125" rx="8" fill="#5d4037"/>
+  <ellipse cx="400" cy="168" rx="95" ry="82" fill="#388e3c"/>
+  <ellipse cx="365" cy="195" rx="68" ry="55" fill="#43a047"/>
+  <ellipse cx="438" cy="190" rx="68" ry="55" fill="#2e7d32"/>
+  <ellipse cx="400" cy="148" rx="75" ry="64" fill="#66bb6a"/>
+  <ellipse cx="400" cy="128" rx="55" ry="48" fill="#81c784"/>
+  <rect x="148" y="240" width="24" height="90" rx="6" fill="#5d4037"/>
+  <ellipse cx="160" cy="212" rx="58" ry="50" fill="#388e3c"/>
+  <ellipse cx="135" cy="234" rx="44" ry="36" fill="#43a047"/>
+  <ellipse cx="185" cy="230" rx="44" ry="36" fill="#2e7d32"/>
+  <ellipse cx="160" cy="198" rx="46" ry="40" fill="#66bb6a"/>
+  <rect x="626" y="240" width="24" height="90" rx="6" fill="#5d4037"/>
+  <ellipse cx="638" cy="212" rx="58" ry="50" fill="#388e3c"/>
+  <ellipse cx="613" cy="234" rx="44" ry="36" fill="#43a047"/>
+  <ellipse cx="663" cy="230" rx="44" ry="36" fill="#2e7d32"/>
+  <ellipse cx="638" cy="198" rx="46" ry="40" fill="#66bb6a"/>
+  <rect x="55" y="285" width="16" height="45" rx="4" fill="#5d4037"/>
+  <ellipse cx="63" cy="272" rx="28" ry="22" fill="#a5d6a7"/>
+  <ellipse cx="63" cy="262" rx="22" ry="18" fill="#c8e6c9"/>
+  <rect x="720" y="285" width="16" height="45" rx="4" fill="#5d4037"/>
+  <ellipse cx="728" cy="272" rx="28" ry="22" fill="#a5d6a7"/>
+  <ellipse cx="728" cy="262" rx="22" ry="18" fill="#c8e6c9"/>
+  <rect x="295" y="300" width="12" height="30" rx="3" fill="#5d4037"/>
+  <ellipse cx="301" cy="290" rx="20" ry="16" fill="#a5d6a7"/>
+  <rect x="495" y="300" width="12" height="30" rx="3" fill="#5d4037"/>
+  <ellipse cx="501" cy="290" rx="20" ry="16" fill="#a5d6a7"/>
+  <ellipse cx="100" cy="315" rx="16" ry="18" fill="#ffb74d"/>
+  <rect x="93" y="330" width="14" height="22" rx="4" fill="#4caf50"/>
+  <line x1="93" y1="334" x2="74" y2="352" stroke="#5d4037" stroke-width="4" stroke-linecap="round"/>
+  <rect x="68" y="350" width="14" height="5" rx="2" fill="#8d6330"/>
+  <ellipse cx="700" cy="313" rx="16" ry="18" fill="#f48fb1"/>
+  <rect x="693" y="328" width="14" height="22" rx="4" fill="#ff7043"/>
+  <line x1="707" y1="332" x2="726" y2="350" stroke="#5d4037" stroke-width="4" stroke-linecap="round"/>
+  <rect x="720" y="350" width="14" height="5" rx="2" fill="#8d6330"/>
+  <ellipse cx="400" cy="348" rx="36" ry="16" fill="#a1887f"/>
+  <rect x="364" y="330" width="72" height="22" rx="7" fill="#795548"/>
+  <line x1="372" y1="330" x2="368" y2="316" stroke="#a5d6a7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="386" y1="330" x2="382" y2="310" stroke="#81c784" stroke-width="3" stroke-linecap="round"/>
+  <line x1="400" y1="330" x2="400" y2="308" stroke="#a5d6a7" stroke-width="3" stroke-linecap="round"/>
+  <line x1="414" y1="330" x2="418" y2="310" stroke="#66bb6a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="428" y1="330" x2="432" y2="316" stroke="#a5d6a7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M580 100 Q588 93 596 100" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+  <path d="M600 92 Q608 85 616 92" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+  <path d="M560 115 Q568 108 576 115" fill="none" stroke="#555" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="240" cy="90" r="3" fill="#a5d6a7" opacity=".7"/>
+  <circle cx="560" cy="100" r="3" fill="#a5d6a7" opacity=".7"/>
+  <circle cx="680" cy="80" r="3" fill="#a5d6a7" opacity=".7"/>
+  <text x="400" y="455" text-anchor="middle" font-family="Georgia,serif" font-size="26" font-weight="700" fill="#1b5e20" letter-spacing="5">TREE PLANTATION DRIVE</text>
+  <text x="400" y="483" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#388e3c" letter-spacing="3">Community Portal · Event Gallery</text>
+</svg>
