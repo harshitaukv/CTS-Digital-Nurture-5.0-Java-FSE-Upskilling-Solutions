@@ -1,0 +1,183 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Universal Selector */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body Styling */
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f4f4f4 url("background.jpg") no-repeat center center fixed;
+    background-size:cover;
+    color:#333;
+}
+
+/* Navigation Styles */
+.navbar{
+    background:rgba(0,0,0,0.9);
+    padding:15px;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+    padding:8px;
+}
+
+/* Link Pseudo Classes */
+.navbar a:link{
+    color:white;
+}
+
+.navbar a:visited{
+    color:lightgray;
+}
+
+.navbar a:hover{
+    background:orange;
+    color:black;
+}
+
+.navbar a:active{
+    color:red;
+}
+/* Main Header */
+#mainHeader{
+    background:linear-gradient(to right, blue, purple);
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+/* h2 Element Selector */
+h2{
+    text-align:center;
+    color:#003366;
+    margin:20px;
+}
+
+/* Grouping Selector */
+h3,p{
+    line-height:1.6;
+}
+
+/* Highlight Class */
+.highlight{
+    background:yellow;
+    padding:5px;
+}
+
+/* Event Cards */
+.eventCard{
+    border:2px solid black;
+    padding:15px;
+    margin:15px;
+    background:rgba(255,255,255,0.9);
+}
+
+/* Gallery Images */
+.event-img{
+    width:300px;
+    height:220px;
+    border:3px solid black;
+}
+
+/* Table Styling */
+table{
+    width:90%;
+    margin:auto;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background:#e6e6e6;
+}
+
+/* Form Styling */
+.form-container{
+    width:60%;
+    margin:auto;
+    border:2px solid gray;
+    padding:20px;
+    background:white;
+}
+
+input,select,textarea{
+    width:100%;
+    padding:8px;
+    margin:5px 0 10px;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    outline:3px solid orange;
+}
+.image-section{
+    background:#f0f8ff;
+}
+
+.video-section{
+    background:#fff8e7;
+}
+
+.location-section{
+    background:#f0fff0;
+}
+
+.image-section,
+.video-section,
+.location-section{
+    margin:20px;
+    padding:20px;
+    border-radius:8px;
+}
+/* Multi Column Text */
+.news{
+    column-count:2;
+    column-gap:30px;
+    column-rule:1px solid gray;
+    margin:20px;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width:768px){
+
+    .navbar a{
+        display:block;
+        margin:5px 0;
+    }
+
+    .event-img{
+        width:180px;
+        height:140px;
+    }
+
+    h1{
+        font-size:24px;
+    }
+
+    .form-container{
+        width:90%;
+    }
+}
