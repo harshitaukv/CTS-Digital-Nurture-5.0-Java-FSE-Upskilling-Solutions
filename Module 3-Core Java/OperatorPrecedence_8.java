@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class OperatorPrecedence_8 {
+
+    public static void main(String[] args) {
+
+        int result1 = 10 + 5 * 2;
+
+        int result2 = (10 + 5) * 2;
+
+        int result3 = 20 / 5 + 3 * 2;
+
+        int result4 = 8 + 4 / 2 - 1;
+
+        System.out.println("10 + 5 * 2 = " + result1);
+
+        System.out.println("(10 + 5) * 2 = " + result2);
+
+        System.out.println("20 / 5 + 3 * 2 = " + result3);
+
+        System.out.println("8 + 4 / 2 - 1 = " + result4);
+    }
+}
