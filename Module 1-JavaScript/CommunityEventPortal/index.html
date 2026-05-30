@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Local Community Event Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Exercise 14 : jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <h1>🌟 Local Community Event Portal</h1>
+
+            <p>
+                Discover • Register • Participate in Community Events
+            </p>
+
+            <span id="currentDate"></span>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- Controls Section -->
+
+    <section class="controls">
+
+        <!-- Exercise 8 : onchange -->
+
+        <select id="categoryFilter">
+
+            <option value="All">All Categories</option>
+
+            <option value="Music">Music</option>
+
+            <option value="Workshop">Workshop</option>
+
+            <option value="Sports">Sports</option>
+
+        </select>
+
+
+        <!-- Exercise 8 : keydown -->
+
+        <input type="text"
+               id="searchBox"
+               placeholder="🔍 Search Event">
+
+    </section>
+
+
+
+    <!-- Exercise 9 Loading Spinner -->
+
+    <div id="loader" class="loader">
+
+        Loading Events...
+
+    </div>
+
+
+
+    <!-- Exercise 7 DOM Manipulation -->
+
+    <section>
+
+        <div id="eventContainer"
+             class="event-grid">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Registration Counter -->
+
+    <section class="stats">
+
+        <h2>
+
+            Total Registrations :
+
+            <span id="registrationCount">
+
+                0
+
+            </span>
+
+        </h2>
+
+    </section>
+
+
+
+    <!-- Exercise 11 Form -->
+
+    <section class="form-card">
+
+        <h2>
+
+            📋 Event Registration Form
+
+        </h2>
+
+        <form id="registrationForm">
+
+            <input type="text"
+                   name="name"
+                   placeholder="Enter Name">
+
+            <span id="nameError"
+                  class="error"></span>
+
+
+
+            <input type="email"
+                   name="email"
+                   placeholder="Enter Email">
+
+            <span id="emailError"
+                  class="error"></span>
+
+
+
+            <select name="event">
+
+                <option>
+                    Music Fest
+                </option>
+
+                <option>
+                    Baking Workshop
+                </option>
+
+                <option>
+                    Football Match
+                </option>
+
+                <option>
+                    Rock Concert
+                </option>
+
+            </select>
+
+
+
+            <button type="submit"
+                    id="registerBtn">
+
+                Register Now
+
+            </button>
+
+        </form>
+
+
+
+        <div id="message">
+
+        </div>
+
+    </section>
+
+
+
+    <footer>
+
+        © 2026 Community Event Portal
+
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
